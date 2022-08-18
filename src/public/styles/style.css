@@ -1,0 +1,113 @@
+body {
+    background: #f9fbfc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.main .productSide {
+    background-color: rgba(160, 128, 170, 0.815);
+    width: 50vw;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.main .productSide .products {
+    height: 100%;
+}
+
+
+.chatSide .casing {
+
+    background-color: rgba(160, 128, 170, 0.815);
+    padding: 10px;
+    border: 1px solid rgba(160, 128, 170, 0.815);
+    border-radius: 5px;
+}
+
+.chatSide .window {
+ 
+    border-radius: 10px;
+    background: #fff;
+    width: 100%;
+    height: 452px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.chatSide .window .header {
+    background:  rgba(160, 128, 170, 0.815);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    height: 10%;
+   
+}
+
+
+.chatSide .window .chats {
+    width: 100%;
+    height: 79%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 3px;
+}
+
+.chat {
+    background: #ad93b9;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    font-weight: lighter;
+    font-size: small;
+    box-shadow: 1px 1px 2px rgba(78, 37, 112, 0.3);
+    margin: 5px;
+    position: relative;
+} 
+
+.chat .date {
+    color: #333;
+    font-size: 9px;
+}
+
+.chat.u2 {
+    float: right;
+    clear: both;
+    background: #6dc06a;
+}
+
+.userSay {
+    color: #000;
+}
+
+.chatSide .window .new-chat {
+
+    background: #ededed;
+    height: 40px; 
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chatSide .window .new-chat input {
+ 
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    background: #ddd;
+
+}
+
+
