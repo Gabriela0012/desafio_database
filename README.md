@@ -1,2 +1,8 @@
-# desafio_database
-database sqlite3
+# Desafio Database
+## Dependencias
+>>nodemon\
+>>express\
+>>knex\
+>>sqlite3
+## Levantar npm
+>> npm start
